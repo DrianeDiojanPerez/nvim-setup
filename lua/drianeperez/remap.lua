@@ -49,3 +49,6 @@ vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+-- auto save
+ vim.keymap.set("n", "<leader>n", ":ASToggle<CR>", {})

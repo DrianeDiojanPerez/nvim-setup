@@ -18,6 +18,10 @@ return{
             -- code
             neogen.generate({ type = "type" })
         end)
+        vim.keymap.set("n", "<leader>gc", function ()
+            -- code
+            neogen.generate({ type = "class" })
+        end)
     end,
     -- Uncomment next line if you want to follow only stable versions
     -- version = "*"
